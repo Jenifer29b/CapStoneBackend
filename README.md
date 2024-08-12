@@ -13,6 +13,9 @@ This Repo is for the Music Streaming Application  Backend :
      This Folder conatins albumModel , songModel , authModel for the schema for the user , song and album 
 # 5. Config : 
     This is the Configuration Folder for connection Setup the Mongodb Datbases for Both SongDetails and UserAuthentication .
+# 6. Running the project :
+    "node server.js" to run the backend of this application
+    
 
 This Backend repo only for the storing the User Data in cloud Database , and Song Database for storing the Song Details ..
 # Music Streaming Backend is Deployed in the Render.com 

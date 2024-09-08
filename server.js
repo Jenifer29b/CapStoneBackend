@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import path from 'path'
 import 'dotenv/config'
 import songRouter from './src/routes/songRoute.js';
 import connectDB from './src/config/mongodb.js';
@@ -15,6 +16,9 @@ const port = process.env.PORT || 4000;
 connectDB()  // database for storing music
 connectCloudinary();
 connectDB1()  // database for authentication
+app.use(express.static('public'));
+
+
 
 
 
